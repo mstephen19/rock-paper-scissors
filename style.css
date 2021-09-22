@@ -1,0 +1,38 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lime;
+}
+
+#play {
+    text-align: center;
+    width: 50vw;
+    height: 10vw;
+    background-color: hotpink;
+    box-shadow: 3px 3px 3px black;
+    border: none;
+    font-size: 5.5rem;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+#play:hover {
+    background: yellow;
+    transform: scale(1.1);
+}
+
+#play:active {
+    transform: scale(0.9);
+}
+
+ul {
+    list-style: none;
+}
